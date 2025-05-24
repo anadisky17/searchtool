@@ -1,0 +1,16 @@
+2025-05-13 09:01:12 [INFO] Starting application
+2025-05-13 09:01:13 [DEBUG] Loaded configuration file: config.yaml
+2025-05-13 09:01:15 [INFO] Connecting to database...
+2025-05-13 09:01:16 [ERROR] Failed to connect to database: timeout
+2025-05-13 09:01:18 [WARN] Retrying connection in 5 seconds
+2025-05-13 09:01:23 [INFO] Connection successful
+2025-05-13 09:02:01 [DEBUG] Received request: GET /api/users
+2025-05-13 09:02:01 [INFO] Handled request: 200 OK
+2025-05-13 09:02:15 [DEBUG] Received request: POST /api/login
+2025-05-13 09:02:16 [ERROR] Invalid credentials for user 'admin'
+2025-05-13 09:02:18 [INFO] Request took 350ms
+2025-05-13 09:03:00 [INFO] Background job started
+2025-05-13 09:03:05 [WARN] High memory usage detected: 85%
+2025-05-13 09:03:10 [INFO] Cleanup task completed
+2025-05-13 09:03:15 [DEBUG] Received request: GET /api/logs
+2025-05-13 09:03:16 [INFO] Log export completed
